@@ -46,7 +46,10 @@ body {
 
 /* left section CSS */
 .left {
-    background-color: red;
+    background-image: url("./images/zoomed-green-leaves.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-color: black;
     flex: 1 0 250px;
     max-width: 450px;
 }
