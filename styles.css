@@ -10,6 +10,20 @@
     font-style: normal;
 }
 
-p {
-    font-family: norsebold, Arial, Helvetica, sans-serif;
+body {
+    display: flex;
+    width:100vw;
+    height:100vw;
+}
+
+.left {
+    background-color: red;
+    width: 30vw;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    width: 70vw;
 }
