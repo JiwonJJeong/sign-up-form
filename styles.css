@@ -10,6 +10,7 @@
     font-style: normal;
 }
 
+/* CSS reset */
 @import "modern-normalize";
 
 :root {
@@ -35,12 +36,15 @@ img {
   max-inline-size: 100%;
 }
 
+/* sectioning */
 body {
     display: flex;
     width:100vw;
-    height:100vw;
+    height:100vh;
+    margin: 0;
 }
 
+/* left section CSS */
 .left {
     background-color: red;
     width: 30vw;
