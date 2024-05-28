@@ -35,13 +35,18 @@ img {
   max-inline-size: 100%;
 }
 
+/* color custom properties */
+:root {
+    --main-bg-color:rgb(238, 238, 238);
+}
+
 /* sectioning */
 body {
     display: flex;
     flex: 1 1 0;
     height: 100vh;
     margin: 0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 /* left section CSS */
@@ -94,6 +99,7 @@ a {
     flex-direction: column;
     background-color: aqua;
     flex: 2 0 400px;
+    min-width: 440px;
 }
 
 .right.section{
@@ -107,5 +113,18 @@ a {
 
 /* right top section CSS */
 .right .header{
-    background-color: red;
+    background-color: var(--main-bg-color);
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: max(30px,3vw);
+    padding-right: max(30px,10vw);
+    max-height: 280px;
 }
+
+.right .header .last-line{
+    margin: 20px 0 50px 0;
+}
+
