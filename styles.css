@@ -37,7 +37,8 @@ img {
 
 /* color custom properties */
 :root {
-    --main-bg-color:rgb(238, 238, 238);
+    --main-bg-color:rgb(245, 245, 245);
+    --gray-shadow-color:rgb(119, 119, 119);
 }
 
 /* sectioning */
@@ -129,6 +130,10 @@ a {
 }
 
 /* right bottom section CSS */
+.right .submit {
+    background-color: var(--main-bg-color);
+}
+
 .right button{
     background-color: #596D48;
     color: white;
@@ -139,7 +144,12 @@ a {
     text-decoration:none;
     border-radius: 8px;
     font-size: 16px;
-    box-shadow: 2px 2px 4px var(--main-bg-color);
+    box-shadow: 2px 2px 4px var(--gray-shadow-color);
+    margin: 30px max(30px,3vw);
+}
+
+.right .submit p{
+    margin: 0 max(30px,3vw);
 }
 
 .right .submit a{
