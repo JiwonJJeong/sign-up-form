@@ -212,3 +212,12 @@ a {
     font-size: 11px;
     color: red;
 }
+
+.right .form .input input:required:invalid ~ span.pass-too-short::before{
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    content: "password must be at least 8 characters";
+    font-size: 11px;
+    color: red;
+}
