@@ -161,4 +161,20 @@ a {
 /* right middle section CSS */
 .right .form{
     background-color: white;
+    display:flex;
+    flex-direction:column;
+}
+
+.right .form form{
+    display:flex;
+    flex-direction: column;
+}
+
+.right .form .row{
+    display:flex;
+}
+
+.right .form .form-left, .right .form .form-right{
+    display:flex;
+    flex-direction: column;
 }
