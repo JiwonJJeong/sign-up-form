@@ -189,16 +189,30 @@ a {
 .right .form .form-left, .right .form .form-right{
     display:flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .right .form label{
     font-size: 12px;
 }
 
+.right .form input{
+    border-color: rgb(201, 201, 201);
+    border-radius: 2px;
+}
+
 
 .right .form .input {
     position: relative;
 }
+
+.right .form input:focus {
+    box-shadow: 2px 2px 2px gray;
+    border-color: rgb(106, 200, 255);
+    outline: none !important;
+}
+
+/* validation CSS */
 
 .right .form .input input:required + span{
     position: relative;
