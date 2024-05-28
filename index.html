@@ -40,13 +40,21 @@
                     </div>
                     <div class="form-right input">
                         <label for="last-name">LAST NAME *</label>
-                        <input id="last-name" name="last-name" required>
+                        <div>
+                            <input id="last-name" name="last-name" required>
+                            <span></span>
+                        </div>
+
                     </div>
                 </div>
                 <div class="row 2">
                     <div class="form-left input">
                         <label for="email">EMAIL *</label>
-                        <input type="email" id="email" name="email" required>
+                        <div>
+                            <input type="email" id="email" name="email" required>
+                            <span></span>
+                        </div>
+
                     </div>
                     <div class="form-right input">
                         <label for="phone-number">PHONE NUMBER</label>
@@ -56,12 +64,19 @@
                 <div class="row 3">
                     <div class="form-left input">
                         <label for="password">PASSWORD *</label>
+                        <div>
+                            <input type="password" id="password" name="password" required minlength="8">
+                            <span></span>
+                        </div>
 
-                        <input type="password" id="password" name="password" required minlength="8">
                     </div>
                     <div class="form-right input">
                         <label for="password-repeat">CONFIRM PASSWORD *</label>
-                        <input type="password" id="password-repeat" name="password-repeat" required minlength="8">
+                        <div>
+                            <input type="password" id="password-repeat" name="password-repeat" required minlength="8">
+                            <span></span>
+                        </div>
+
                     </div>
                 </div>
             </form>

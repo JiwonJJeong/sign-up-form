@@ -195,6 +195,7 @@ a {
     font-size: 12px;
 }
 
+
 .right .form .input {
     position: relative;
 }
@@ -206,8 +207,8 @@ a {
 .right .form .input input:required:invalid + span::before {
     position: absolute;
     top: -21px;
-    left: -50px;
+    left: -45px;
     content: "required";
-    font-size: 12px;
+    font-size: 11px;
     color: red;
 }
