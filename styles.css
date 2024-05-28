@@ -157,3 +157,8 @@ a {
     text-decoration: none;
     font-weight:bold;
 }
+
+/* right middle section CSS */
+.right .form{
+    background-color: white;
+}
