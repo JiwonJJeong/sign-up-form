@@ -85,6 +85,10 @@ body {
     margin: 8px;
 }
 
+a {
+    color:white;
+}
+
 
 .right {
     display: flex;
