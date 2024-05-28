@@ -42,17 +42,49 @@ body {
     flex: 1 1 0;
     height: 100vh;
     margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 /* left section CSS */
-.left {
+.left.section{
     background-image: url("./images/zoomed-green-leaves.jpg");
     background-size: cover;
     background-position-x: center;
     background-color: black;
     flex: 1 0 250px;
     max-width: 450px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
+
+.logo.section{
+    display:flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.452);
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 55vh;
+}
+
+.logo.words {
+    font-family: norsebold, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 4rem;
+}
+
+.logo.image {
+    height: 100px;
+    width: auto;
+}
+
+.image.footer {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    margin: 8px;
+}
+
 
 .right {
     display: flex;
